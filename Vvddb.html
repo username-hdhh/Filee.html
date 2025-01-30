@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #3b8f3a; /* اللون الأخضر */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    margin-right: 20px;
+}
+
+.icons {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+
+.icons img {
+    width: 30px;
+    height: 30px;
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.search-container input {
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    width: 250px;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 10px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    position: relative;
+}
+
+.profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #4caf50; /* اللون الأزرق */
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 2px solid white;
+}
+
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>شريط فيس بوك</title>
+</head>
+<body>
+    <div class="navbar">
+        <div class="logo">شعار</div>
+        <div class="icons">
+            <img src="bfc.png" alt="Icon 1">
+            <img src="b6u.png" alt="Icon 2">
+            <img src="01.png" alt="Icon 3">
+            <img src="bfb.png" alt="Icon 4">
+        </div>
+        <div class="search-container">
+            <input type="text" placeholder="بحث...">
+            <img src="b0d.png" alt="Search" class="search-icon">
+        </div>
+        <div class="profile-container">
+            <div class="status-dot"></div>
+            <img src="bb2.png" alt="Profile" class="profile-pic">
+        </div>
+    </div>
+</body>
+</html>
